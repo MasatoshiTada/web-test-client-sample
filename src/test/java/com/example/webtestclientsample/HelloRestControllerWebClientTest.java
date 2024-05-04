@@ -8,7 +8,7 @@ import org.springframework.test.web.reactive.server.WebTestClient;
 
 @SpringBootTest
 @AutoConfigureWebTestClient
-public class HelloRestControllerTest1 {
+public class HelloRestControllerWebClientTest {
 
     @Autowired
     WebTestClient webClient;
